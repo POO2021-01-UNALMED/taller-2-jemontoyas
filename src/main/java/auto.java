@@ -1,4 +1,4 @@
-
+package test;
 public class auto {
 	String modelo, marca;
 	int precio, registro; 

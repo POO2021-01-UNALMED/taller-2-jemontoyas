@@ -1,4 +1,4 @@
-
+package test;
 public class asiento {
 	String color;
 	int precio;
