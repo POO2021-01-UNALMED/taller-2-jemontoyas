@@ -1,4 +1,4 @@
-package test;
+
 import java.util.*;
 public class principal {
 
@@ -14,7 +14,7 @@ public class principal {
 		asiento a= new asiento();
 		motor b= new motor();
 		auto c= new auto();
-		// utilizando clase asiento.
+		
 		if((colorAsiento=="azul") || (colorAsiento== "rojo") || (colorAsiento=="verde")||(colorAsiento=="negro") ||(colorAsiento=="blanco") ) {
 			a.cambiarColor(colorAsiento);
 		}
@@ -23,7 +23,7 @@ public class principal {
 		}
 		a.consecutivo(serialAsiento);
 		a.valorAsiento(precioAsiento);
-		// utilizando clase motor.
+		
 		b.cambiarRegistro(serialMotor);
 		if(clase=="electrico" || clase=="gasolina") {
 			b.asignarTipo(clase);
